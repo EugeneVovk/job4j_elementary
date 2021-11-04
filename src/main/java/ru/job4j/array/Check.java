@@ -4,8 +4,8 @@ public class Check {
 
     public static boolean mono(boolean[] data) {
         boolean isSame = true;
-        for (boolean idx : data) {
-            if (data[0] != idx) {
+        for (int i = 1; i < data.length; i++) {
+            if (data[0] != data[i]) {
                 isSame = false;
                 break;
             }
