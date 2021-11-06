@@ -7,6 +7,7 @@ package ru.job4j.array;
  * Цель игры - расположить крестики в линию на 5 элементов.
  * Элементы X должны располагаться либо вертикально, либо горизонтально.
  */
+
 public class MatrixCheck {
 
     public static boolean monoHorizontal(char[][] board, int row) {
